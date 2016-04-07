@@ -1,0 +1,37 @@
+@import 'common';
+
+#content-wrapper {
+  #content-column {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  .portrait {
+    float: left;
+    width: 20%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 15em;
+
+    .portrait-img {
+      height: 75%;
+    }
+
+    .portrait-text {
+      height: 25%;
+      h3, p {
+        margin: 0;
+      }
+      h3 {
+        margin-top: 1em;
+      }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .portrait {
+      width: 33%;
+    }
+  }
+}

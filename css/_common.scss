@@ -1,4 +1,5 @@
 @import 'styleguide';
+$nav-height: 10vh;
 
 /* structural stuff */
 body, html {
@@ -13,6 +14,39 @@ body, html {
   font-size: 16px;
 }
 
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: auto;
+  height: $nav-height;
+  line-height: $nav-height;
+
+  font-family: $font-heading;
+  text-transform: uppercase;
+
+  #nav-inner {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: auto;
+
+    .nav-item {
+      float: left;
+      width: 25%;
+      text-align: center;
+    }
+  }
+}
+
+#content-wrapper {
+  padding-top: $nav-height;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
 /* Adjustments to tag defaults */
 ::selection {
   background-color: $yellow;
@@ -20,4 +54,8 @@ body, html {
 
 p {
   line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-heading;
 }
