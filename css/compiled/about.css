@@ -20,7 +20,9 @@ nav {
   height: 10vh;
   line-height: 10vh;
   font-family: "Merriweather", sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  /* 0.4 em = 400 weight, adjust as necessary */ }
   nav #nav-inner {
     width: 80%;
     margin: 0 auto;

@@ -25,6 +25,7 @@ nav {
 
   font-family: $font-heading;
   text-transform: uppercase;
+  letter-spacing: 0.4em; /* 0.4 em = 400 weight, adjust as necessary */
 
   #nav-inner {
     width: 80%;
