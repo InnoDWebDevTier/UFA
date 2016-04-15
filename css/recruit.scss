@@ -1,0 +1,47 @@
+@import 'common';
+
+#content-wrapper {
+  #content-column {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  #recruit-timeline {
+    .timeline-item {
+      width: 100%;
+      overflow: auto;
+      height: 20vh;
+
+      .timeline-left, .timeline-mid, .timeline-right {
+        height: 20vh;
+        float: left;
+        overflow: auto;
+        padding: 20px 40px;
+        box-sizing: border-box;
+      }
+
+      .timeline-left {
+        width: 40%;
+      }
+
+      .timeline-mid {
+        width: 20%;
+      }
+
+      .timeline-right {
+        width: 40%;
+      }
+
+      .timeline-fill {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        border: 2px solid $offblack;
+        border-radius: 3px;
+        padding: 10px 20px;
+      }
+    }
+  }
+
+}

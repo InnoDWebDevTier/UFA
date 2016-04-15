@@ -16,15 +16,16 @@
 
     .portrait-img {
       height: 75%;
+      overflow: hidden;
+      img {
+        height: 100%;
+      }
     }
 
     .portrait-text {
       height: 25%;
       h3, p {
         margin: 0;
-      }
-      h3 {
-        margin-top: 1em;
       }
     }
   }
