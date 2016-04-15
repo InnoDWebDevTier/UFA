@@ -1,6 +1,10 @@
 @import 'common';
 
 #content-wrapper {
+  background-image: url('/img/team.jpg');
+  background-size: cover;
+  background-position: center;
+
   #nameplate {
     position: absolute;
     top: 50%;

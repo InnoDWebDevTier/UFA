@@ -24,20 +24,21 @@ nav {
   overflow: auto;
   height: $nav-height;
   line-height: $nav-height;
+  background: $offwhite;
 
   font-family: $font-heading;
   text-transform: uppercase;
   letter-spacing: 0.4em; /* 0.4 em = 400 weight, adjust as necessary */
 
   #nav-inner {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     max-width: 800px;
     overflow: auto;
 
     .nav-item {
       float: left;
-      width: 25%;
+      width: 20%;
       text-align: center;
 
       a {
@@ -56,7 +57,9 @@ nav {
   padding-top: $nav-height;
   box-sizing: border-box;
   width: 100%;
-  min-height: $content-height;
+  min-height: 100vh;
+  padding-bottom: $footer-height;
+  margin-bottom: -$footer-height;
 
   .img-fullbleed {
     img {
