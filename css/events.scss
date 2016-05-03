@@ -1,0 +1,17 @@
+@import 'common';
+
+#content-wrapper {
+  #content-column {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  .event {
+    .event-banner {
+      width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
