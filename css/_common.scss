@@ -1,6 +1,6 @@
 @import 'styleguide';
 $nav-height: 10vh;
-$content-height: 90vh;
+$content-height: 80vh;
 $footer-height: 10vh;
 
 /* structural stuff */
@@ -65,6 +65,14 @@ nav {
     img {
       width: 100%;
     }
+  }
+
+  #content-column {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: auto;
+    min-height: $content-height;
   }
 }
 
