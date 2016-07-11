@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Merriweather", sans-serif; }
 
 #content-wrapper {
-  background-image: url("/img/team.jpg");
+  background-image: url("../../img/team.jpg");
   background-size: cover;
   background-position: center; }
   #content-wrapper #nameplate {
