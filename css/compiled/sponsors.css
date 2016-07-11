@@ -86,3 +86,14 @@ table {
     color: #fefdfd; }
   table tr:hover {
     background: #5480be; }
+
+#logos {
+  text-align: center; }
+  #logos .sp-logo {
+    height: 100px;
+    margin: 10px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%); }
+    #logos .sp-logo:hover {
+      filter: grayscale(0%);
+      -webkit-filter: grayscale(0%); }

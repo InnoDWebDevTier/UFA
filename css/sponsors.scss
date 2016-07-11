@@ -21,3 +21,19 @@ table {
     }
   }
 }
+
+#logos {
+  text-align: center;
+
+  .sp-logo {
+    height: 100px;
+    margin: 10px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+
+    &:hover {
+      filter: grayscale(0%);
+      -webkit-filter: grayscale(0%);
+    }
+  }
+}
