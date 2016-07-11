@@ -1,0 +1,23 @@
+@import 'common';
+
+table {
+  width: 100%;
+  tr {
+    td {
+      padding: 5px 10px;
+      &:nth-child(2) {
+        width: 20%;
+        text-align: center;
+      }
+    }
+
+    &:nth-child(even) {
+      background: $grey;
+      color: $offwhite;
+    }
+
+    &:hover {
+      background: $blue;
+    }
+  }
+}
