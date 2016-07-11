@@ -1,0 +1,85 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+/* use n*$base-unit for all font-sizing, (vertical) spacing */
+/* structural stuff */
+body, html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  color: #333;
+  font-family: "Lato", sans-serif;
+  background-color: #fefdfd;
+  font-size: 16px; }
+
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: auto;
+  height: 10vh;
+  line-height: 10vh;
+  background: #fefdfd;
+  font-family: "Merriweather", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.4em;
+  /* 0.4 em = 400 weight, adjust as necessary */ }
+  nav #nav-inner {
+    width: 85%;
+    margin: 0 auto;
+    max-width: 800px;
+    overflow: auto; }
+    nav #nav-inner .nav-item {
+      float: left;
+      width: 20%;
+      text-align: center; }
+      nav #nav-inner .nav-item a {
+        color: inherit;
+        text-decoration: none; }
+        nav #nav-inner .nav-item a.active {
+          color: #5480be; }
+
+#content-wrapper {
+  padding-top: 10vh;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  padding-bottom: 10vh;
+  margin-bottom: -10vh; }
+  #content-wrapper .img-fullbleed img {
+    width: 100%; }
+  #content-wrapper #content-column {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: auto;
+    min-height: 80vh; }
+
+#footer {
+  height: 10vh;
+  background: #333;
+  color: #fefdfd;
+  padding: 10px 20px;
+  box-sizing: border-box; }
+  #footer h4 {
+    margin: 0; }
+
+/* Adjustments to tag defaults */
+::selection {
+  background-color: #5480be; }
+
+p {
+  line-height: 1.5; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Merriweather", sans-serif; }
+
+#content-wrapper #content-column {
+  width: 70%;
+  margin: 0 auto;
+  max-width: 1000px; }
+
+#content-wrapper .event .event-banner {
+  width: 200px; }
+  #content-wrapper .event .event-banner img {
+    width: 100%; }
